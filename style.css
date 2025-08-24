@@ -76,3 +76,26 @@ h1 {
   font-size: 14px;
   margin-top: 40px;
 }
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 12px;
+  background: #000;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 6px;
+}
+
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
+html, body {
+  scrollbar-color: #1b110b #48382F;
+  scrollbar-width: thin;
+}
+
