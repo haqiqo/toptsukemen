@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Vollkorn+SC:regular,600,700,900);
-@import url(https://fonts.googleapis.com/css?family=Gilda+Display:regular);
+@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:regular,italic);
 body {
     font-family: 'Vollkorn SC', serif;
     min-height: 100vh;
@@ -29,7 +29,7 @@ h1 {
     border: 1px solid #723d00;
     border-radius: 5px;
     margin: 10px;
-    padding: 20px;
+    padding: 20px 20px 70px 20px; /* top, right, bottom, left */
     width: 300px;
     text-align: center;
     background-color: #faefd8;
@@ -43,7 +43,7 @@ h1 {
 }
 
 .shop p {
-    font-size: 14px;
+    font-size: 15px;
     color: black;
     text-align: left;
     margin-top: 20px;
@@ -51,14 +51,14 @@ h1 {
 
 .shop-about {
     font-size: 10px;
-    font-family: 'Gilda Display', Times, serif;
+    font-family: 'Sorts Mill Goudy', Times, serif;
     text-align: left;
     color: black;
     margin-top: 5px;
 }
 
 .map-link {
-    font-family: 'Gilda Display', Times, serif;
+    font-family: 'Sorts Mill Goudy', Times, serif;
     font-size: 14px;
     color: black; /* or any color you like */
     text-align: left;
@@ -68,11 +68,11 @@ h1 {
 
 .site-footer {
   margin-top: auto;
-  font-family: "Gilda Display", serif;
+  font-family: "Sorts Mill Goudy", serif;
   text-align: center;
   padding: 16px 20px;
   background: transparent;
   color: wheat;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 40px;
 }
