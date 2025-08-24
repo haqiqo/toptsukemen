@@ -10,8 +10,15 @@ body {
     background-color: #48382F;
 }
 
+body {
+  background-image: url('images/backgr.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 h1 {
-    background-color: transparent;
+    background-color: none;
     padding: 20px;
     text-align: center;
     color: wheat;
@@ -98,4 +105,3 @@ html, body {
   scrollbar-color: #1b110b #48382F;
   scrollbar-width: thin;
 }
-
